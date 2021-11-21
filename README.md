@@ -14,13 +14,13 @@ Conda installation instructions can be found here: https://docs.conda.io/project
 
 From the project root run:
 
-`conda env create -f environment.yml && conda activate mfii`
+`conda env create -f environment.yml && conda activate avoiding_bubbles`
 
 Next open the jupyter notebook:
 
 `jupyter notebook`
 
-You should now be able to browse to http://localhost:8888 and view the research project. All of the interesting things you will want to review live in the `mfii.ipynb` jupyter notebook. Navigate there within the jupyter UI and run all the cells!
+You should now be able to browse to http://localhost:8888 and view the research project. All of the interesting things you will want to review live in the `avoiding_bubbles.ipynb` jupyter notebook. Navigate there within the jupyter UI and run all the cells!
 
 ## Project Structure
 ```text
@@ -42,4 +42,4 @@ The Fama French Factor data will not regenerate, so don't delete those.
 ## FAQ
 Q: Whoa whoa whoa, I don't want to do all this setup! 🙅 Can I just review a pdf export of your notebook?
 
-A: Yes! There is an export of the latest version saved to a file named [`avoiding_bubbles_11-18-2021.pdf`](./avoiding_bubbles_11-18-2021.pdf). Alternatively, you can view the notebook via GitHub's notebook renderer here: [avoiding_bubbles.ipynb](./avoiding_bubbles.ipynb).
+A: Yes! There is an export of the latest version saved to a file named [`avoiding_bubbles_11-18-2021.pdf`](https://github.com/Boulder-Investment-Technologies/avoiding_bubbles/blob/main/avoiding_bubbles_11-18-2021.pdf). Alternatively, you can view the notebook via GitHub's notebook renderer here: [avoiding_bubbles.ipynb](https://github.com/Boulder-Investment-Technologies/avoiding_bubbles/blob/main/avoiding_bubbles.ipynb).
